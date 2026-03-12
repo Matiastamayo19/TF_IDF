@@ -20,7 +20,7 @@ text_input = st.text_area(
     "She sells seashells on the seashore but the value of these shells will fall."
 )
 
-question = st.text_input("Escribe una pregunta (en inglés):", "Who is playing?")
+question = st.text_input("Escribe una pregunta (en inglés):", "Who sells seashells?")
 
 # Inicializar stemmer para inglés
 stemmer = SnowballStemmer("english")
