@@ -17,7 +17,7 @@ La aplicación aplica normalización y *stemming* para que palabras como *playin
 # Ejemplo inicial en inglés
 text_input = st.text_area(
     "Escribe tus documentos (uno por línea, en inglés):",
-    "The dog barks loudly.\nThe cat meows at night.\nThe dog and the cat play together."
+    "She sells seashells on the seashore but the value of these shells will fall."
 )
 
 question = st.text_input("Escribe una pregunta (en inglés):", "Who is playing?")
